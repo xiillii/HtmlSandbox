@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float and align</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6em;
+        background: #141313;
+      }
+      .container {
+        max-width: 960px;
+        margin: 30px auto;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      .box {
+        background: #f4f4f4;
+        border: 1px solid #333;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+
+      .box p {
+        /* Text align */
+        text-align: end;
+      }
+
+      #box-2 {
+        float: left;
+        width: 68%;
+      }
+
+      #box-3 {
+        float: right;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box-1" class="box">
+        <h3>Heading</h3>
+        <p>
+          Sit quis tempor nostrud adipisicing eiusmod mollit nostrud. Aliquip
+          irure id elit labore laboris sint dolore occaecat nisi amet
+          consectetur ipsum consectetur dolore. Reprehenderit excepteur officia
+          ullamco cillum duis. Ea esse consequat aliqua aliqua. Ut mollit
+          ullamco elit occaecat amet velit. Cupidatat quis est amet non dolor
+          ullamco minim laborum ut proident cupidatat.
+        </p>
+      </div>
+      <div id="box-2" class="box">
+        <h3>Heading</h3>
+        <p>
+          Occaecat nisi ex culpa ea. Sit ullamco qui tempor excepteur voluptate
+          id veniam amet ad consequat do aliqua quis veniam. Cillum tempor non
+          minim ullamco elit.
+        </p>
+      </div>
+      <div id="box-3" class="box">
+        <h3>Heading</h3>
+        <p>
+          Sunt ad aliquip commodo aliquip reprehenderit nostrud ullamco. Irure
+          id est consequat officia exercitation commodo aliqua sint esse. Id et
+          velit pariatur ad eiusmod. Adipisicing sunt occaecat deserunt in anim
+          dolor cillum anim in laboris. Et occaecat exercitation esse nostrud
+          Lorem elit veniam laboris excepteur in.
+        </p>
+      </div>
+      <div class="clr"></div>
+      <div id="box-4" class="box">
+        <h3>Heading</h3>
+        <p>
+          Nostrud exercitation est ipsum mollit ullamco id ad. Eiusmod laborum
+          cupidatat Lorem sunt tempor irure excepteur irure excepteur incididunt
+          amet occaecat reprehenderit. Velit ex ut tempor nostrud eu in magna.
+          Duis nostrud esse aliquip aliquip consectetur dolor sit enim fugiat ad
+          proident do.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

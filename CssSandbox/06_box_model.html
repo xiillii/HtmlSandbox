@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model / Margin and Padding</title>
+
+    <style>
+      /* CSS reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        background: #f4f4f4;
+        border: #333 solid 2px;
+        width: 500px;
+
+        /* Padding on all sides */
+        padding: 20px;
+
+        /* Padding per side */
+        padding-top: 10px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+
+        /* Padding shorthand = top, right, bottom, left */
+        padding: 10px 40px 30px 20px;
+
+        /* Padding shorthand = top/bottom left/right */
+        padding: 30px 5px;
+
+        /* Margin on all sides */
+        margin: 20px;
+
+        /* margin per side */
+        margin-top: 10px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+        /* margin shorthand = top, right, bottom, left */
+        margin: 10px 40px 30px 20px;
+
+        /* margin shorthand = top/bottom left/right */
+        margin: 30px 5px;
+      }
+
+      .box h3 {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h3>Box One</h3>
+      <p>
+        Laboris non fugiat elit irure reprehenderit. Incididunt exercitation
+        excepteur id et mollit do magna. Cillum cupidatat duis qui labore.
+        Laborum duis cillum mollit ex amet consequat. Incididunt sint consequat
+        nulla nisi id pariatur. Sit velit Lorem commodo non occaecat eiusmod
+        irure ex velit nostrud sit sint. Do excepteur esse sit deserunt do.
+        Adipisicing sit nostrud sint in irure cupidatat culpa ad amet ad id
+        adipisicing duis. Voluptate et ut in irure voluptate eiusmod. Fugiat
+        exercitation incididunt aliqua cupidatat sint occaecat do in dolor id
+        nulla Lorem qui irure. Nulla magna do enim in excepteur duis proident
+        aliqua. Sunt sint occaecat officia non laborum sit dolor. Dolor officia
+        dolor culpa cillum ea irure cillum.
+      </p>
+    </div>
+    <div class="box">
+      <h3>Box Two</h3>
+      <p>
+        Lorem duis cupidatat esse aute nisi anim elit eiusmod ea tempor commodo.
+        Do dolor consectetur dolore exercitation. Minim cillum tempor eiusmod
+        adipisicing quis aliquip sunt quis. Cillum qui aliquip sit deserunt eu
+        anim eiusmod dolore nisi. Veniam et exercitation laborum anim culpa
+        consequat commodo ullamco proident cupidatat adipisicing occaecat
+        exercitation aliquip.
+      </p>
+    </div>
+  </body>
+</html>
