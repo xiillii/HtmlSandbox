@@ -203,7 +203,13 @@
     </div>
     <p>Copyright &copy; 2022 - EdgeLedger</p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
   <script>
+
+
     const navbar = document.getElementById('navbar');
     let scrolled = false;
 
@@ -222,6 +228,19 @@
         scrolled = false;
       }
     }
+
+    // smooth scrolling
+    $('#navbar a, .btn').on('click', function (e) {
+      if (this.hash !== '') {
+        e.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top - 100
+        }, 800);
+      }
+    });
   </script>
 </body>
 
